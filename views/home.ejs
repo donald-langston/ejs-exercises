@@ -1,0 +1,5 @@
+<%- include('../partials/templates/PetsHeader.ejs'); %>
+<% parsedContents.forEach(content => { %>
+    <img src=<%= content.image %> style="width:200px; height:200px;">
+<% }); %>
+<%- include('../partials/templates/PetsFooter.ejs'); %>

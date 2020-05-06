@@ -1,0 +1,21 @@
+<div>
+    <header>
+        <img src=<%= imageURL %>> 
+     </header>
+     
+     <nav>
+         <ul>
+             <li>
+                 <% if(requestURL  === "/pets-cats") { %>
+                     <a href="/pets-dogs">Dog's Page</a>
+                 <% } else { %>
+                     <a href="/pets-cats">Cats Page</a>
+                 <% } %>
+             </li>
+         </ul>
+     </nav>
+</div>
+<div style="margin-left: 2%;">
+    <p><%= name %></p>
+    <p><%= description %></p>
+</div>

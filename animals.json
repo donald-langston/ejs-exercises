@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Cute Cat",
+        "description": "An image of a cute cat",
+        "image": "cute-cat.jpg"
+    },
+    {
+        "name": "Cute Puppy",
+        "description": "An image of a cute puppy",
+        "image": "cute-puppy.jpg"
+    },
+    {
+        "name": "Dalmation",
+        "description":"An image of a dalmation",
+        "image": "Dalmation.jpg"
+    },
+    {
+        "name": "New Kitten",
+        "description":"An image of a new kitten",
+        "image": "NewKitten.jpg"
+    },
+    {
+        "name": "Pearl",
+        "description":"An image of a pearl puppy",
+        "image": "pearl.jpg"
+    }
+]
